@@ -7,7 +7,8 @@ h1 {
 }
 body {
     background-image: url("USCBackground1.jpg");
-    background-size: cover;
+    background-size: 100%;
+    overflow-x: hidden;  /*This takes away the overflow of the pictures when you scroll. Images looks good."*/
 }
 
 
