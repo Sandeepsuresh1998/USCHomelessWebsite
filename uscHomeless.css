@@ -1,8 +1,26 @@
-.jumbotron {
+h1 {
 	text-align: center;
-	background-color: Crimson;
 	color: Gold;
 }
 .tabLinks {
-	
+
+}
+body {
+    background-image: url("USCBackground1.jpg");
+    background-size: cover;
+}
+
+
+#mybutton {
+    width: 30%;
+}
+
+#mybuttongroup {
+	background-color: white;
+	margin-left: 5%;
+    width: 100%;
+}
+
+#mycontainer {
+	background-color: white;
 }
