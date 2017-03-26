@@ -13,12 +13,11 @@ body {
 
 
 #mybutton {
-    width: 30%;
+    width: 25%;
 }
 
 #mybuttongroup {
 	background-color: white;
-	margin-left: 5%;
     width: 100%;
 }
 
