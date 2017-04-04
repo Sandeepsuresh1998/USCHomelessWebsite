@@ -1,6 +1,6 @@
 @keyframes example {
 	from {background-image: url("http://kingofwallpapers.com/los-angeles-background/los-angeles-background-012.jpg");}
-	to {background-image: url("http://7wallpapers.net/wp-content/uploads/6_Los-Angeles.jpg");}
+	to {background-image: url("http://www.hdwallpaper.nu/wp-content/uploads/2015/04/4271938e0d6c14d2ca073a751c42ea32_large.jpg");}
 }
 
 
@@ -13,7 +13,10 @@ body {
     background-size: cover;
 
     animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 
     /*This takes away the overflow of the pictures when you scroll. Images looks good."*/
     overflow: hidden;
