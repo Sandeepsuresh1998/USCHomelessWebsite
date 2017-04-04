@@ -1,7 +1,3 @@
-h1 {
-	text-align: center;
-	color: Gold;
-}
 body {
     background-image: url("http://kingofwallpapers.com/los-angeles-background/los-angeles-background-012.jpg");
     margin: 0; 
@@ -12,6 +8,12 @@ body {
 
     /*This takes away the overflow of the pictures when you scroll. Images looks good."*/
     overflow: hidden;
+}
+
+h1 {
+	color: gold;
+	text-align: center;
+	vertical-align: middle;
 }
 
 
