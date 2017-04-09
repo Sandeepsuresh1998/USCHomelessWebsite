@@ -14,14 +14,30 @@
 	<div class="btn-group btn-group-justified" class="container-fluid" role="group" aria-label="..." id="mybuttongroup">
       <button type="button" class="btn btn-default" id = "mybutton" onclick = "storyClicked()">Share your Story!</button>
       <button type="button" class="btn btn-default" id = "mybutton" onclick = "surveyClicked()">Survey</button>
+      <button type="button" class="btn btn-default" id = "mybutton" onclick="openNav()">Resources</button>
+      <!--
       <button type="button" class="btn btn-default" id = "mybutton" onclick = "uscClicked()">USC Resources</button>
       <button type="button" class="btn btn-default" id = "mybutton" onclick = "laResourcesClicked()">LA Resources</button>
       <button type="button" class="btn btn-default" id = "mybutton" onclick = "nationalClicked()">National Resources</button>
+      -->
    </div>
 
    <h1> USC Student Homelessness </h1>
       
+   <!-- The overlay -->
+  <div id="myNav" class="overlay">
 
+  <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="#">USC Resources</a>
+        <a href="#">LA Resources</a>
+        <a href="#">National Resources</a>
+    </div>
+
+  </div>
  
 
 
