@@ -24,6 +24,7 @@ h1 {
 #mybuttongroup {
 	background-color: white;
     width: 100%;
+    vertical-align: center !important;
 }
 
 /* The Overlay (background) */
