@@ -1,3 +1,7 @@
 .jumbotron {
 	background-color: #BD2031 !important;
 }
+#home{
+	position: absolute;
+	top: 0;
+}
