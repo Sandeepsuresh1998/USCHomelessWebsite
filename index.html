@@ -1,8 +1,16 @@
+<!DOCTYPE html>
+<html>
 <head>
 	<!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="main.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>USC Homeless Initiative</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
 	<script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -24,16 +32,6 @@
     #banner-container img {
       width: 100%;
     }
-    #header-container {
-      background-image: url("https://avante.biz/wp-content/uploads/Background-Images-For-Websites/Background-Images-For-Websites-001.jpg");
-      width: 100%;
-    } 
-    #info-container {
-      width: 100%;
-    }
-    #info-container h1 {
-      text-align: center;
-    }
     #footer {
       text-align: center;
       background-color: lightgrey;
@@ -41,54 +39,64 @@
       height: 50px;
       line-height: 50px;
     }
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
 
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnav a.active {
+        background-color: lightblue;
+        color: white;
+    }
+        
   </style>
 </head>
 
 <body>
-    <nav id ="nav" class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">USC Homelessness Initiative</a>
+   <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="uscResourcesList.html">USC Resources</a>
+      <a href="laResources.html">LA Resources</a>
+      <a href="nationalResourcesList.html">National Resources</a>
+      <a href="https://goo.gl/forms/NRDbEPrIBpqLOUL82">Survey</a>
+      <a href="https://docs.google.com/forms/d/1KwFa-vy43IbuJI7d7PSW6MW9_trzgxMp83VSAfNYqNs/edit">Share Your Story</a>
+  </div>  
+
+   <div class="container demo-1">
+      <div class="content">
+        <div id="large-header" class="large-header">
+          <canvas id="demo-canvas"></canvas>
+           <h1 class="main-title">FIGHT ON  <br/> <span class="thin" style="font-size: 12pt;"> Against Homelessness and Hunger </span> </h1>
         </div>
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="uscResourcesList.html">USC Resources</a>
-          </li>
-          <li>
-            <a href="laResources.html">LA Resources</a>
-          </li>
-          <li>
-            <a href="nationalResourcesList.html">National Resources</a>
-          </li>
-          <li>
-            <a href="https://docs.google.com/forms/d/1On8v57JTM-bLafCpsA5--8_FKogGEADLsYpxUnBeWUg/edit#responses">Survey</a>
-          </li>
-          <li>
-            <a href="https://docs.google.com/forms/d/1KwFa-vy43IbuJI7d7PSW6MW9_trzgxMp83VSAfNYqNs/edit">Share Your Story</a>
-          </li>
-        </ul>
-      </div> <!-- End of Nav Bar -->
-    </nav>
+      </div>
+    </div><!-- /container -->
 
-    
-    <div id="header-container">
-      <div id="banner-container">
-        <img src="HomelessnessBanner.png" alt="Homelessness Banner">
-      </div> <!-- Homelessness Banner -->
-    </div>
-
-   <div id="info-container">
-      <h1>The Facts</h1>  
-   </div>
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/rAF.js"></script>
+    <script src="js/demo-1.js"></script>
+    <script>
+    </script>
 
    <div id='footer'>
       <p>Developed by the USC Homelessness Initiative &copy; 2017</p> 
-    </div>
+  </div>
   
-  
-  <!-- <h1> Our Mission: </h1> -->
-
 
 </body>
 

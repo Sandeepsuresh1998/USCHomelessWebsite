@@ -22,6 +22,31 @@
     min-height: 100vh;
     padding-bottom: 50px;
   }
+  .topnav {
+    width: 100%;
+      overflow: hidden;
+      background-color: #333;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+      background-color: lightblue;
+      color: white;
+  }
   #footer {
     text-align: center;
     background-color: lightgrey;
@@ -37,30 +62,14 @@
 
 <body>
   <div id="container">
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">USC Homelessness Initiative</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li class="active">
-            <a href="uscResourcesList.html">USC Resources</a>
-          </li>
-          <li>
-            <a href="laResources.html">LA Resources</a>
-          </li>
-          <li>
-            <a href="nationalResourcesList.html">National Resources</a>
-          </li>
-          <li>
-            <a href="https://docs.google.com/forms/d/1On8v57JTM-bLafCpsA5--8_FKogGEADLsYpxUnBeWUg/edit#responses">Survey</a>
-          </li>
-          <li>
-            <a href="https://docs.google.com/forms/d/1KwFa-vy43IbuJI7d7PSW6MW9_trzgxMp83VSAfNYqNs/edit">Share Your Story</a>
-          </li>
-        </ul>
-      </div>
-    </nav> <!-- End of the Menu Bar -->
+    <div class="topnav">
+          <a href="index.html">Home</a>
+          <a class="active" href="uscResourcesList.html">USC Resources</a>
+          <a href="laResources.html">LA Resources</a>
+          <a  href="nationalResourcesList.html">National Resources</a>
+          <a href="https://goo.gl/forms/NRDbEPrIBpqLOUL82">Survey</a>
+          <a href="https://docs.google.com/forms/d/1KwFa-vy43IbuJI7d7PSW6MW9_trzgxMp83VSAfNYqNs/edit">Share Your Story</a>
+    </div>
 
   <div id="header">
     <h1>USC Resources</h1>
