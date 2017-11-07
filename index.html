@@ -50,10 +50,19 @@
     }
 
     #facts-container {
-      width: 800px;
+      width: 900px;
       margin: auto;
     }
     #facts-container h1 {
+      text-align: center;
+    }
+
+    #mission-statement {
+      width: 900px;
+      margin: auto;
+    }
+
+    #mission-statement h1 {
       text-align: center;
     }
     #footer {
@@ -67,16 +76,16 @@
 </head>
 
 <body>
-   <div class="topnav">
+    <div class="topnav">
       <a class="active" href="index.html">Home</a>
       <a href="uscResourcesList.html">USC Resources</a>
       <a href="laResources.html">LA Resources</a>
       <a href="nationalResourcesList.html">National Resources</a>
       <a href="https://goo.gl/forms/NRDbEPrIBpqLOUL82">Survey</a>
       <a href="https://docs.google.com/forms/d/1KwFa-vy43IbuJI7d7PSW6MW9_trzgxMp83VSAfNYqNs/edit">Share Your Story</a>
-  </div>  
+    </div>  
 
-   <div class="container demo-1">
+    <div class="container demo-1">
       <div class="content">
         <div id="large-header" class="large-header">
           <canvas id="demo-canvas"></canvas>
@@ -87,7 +96,6 @@
 
     <div id="facts-container">
       <h1>The Facts</h1>
-      <div id="fact-one">
           <ol>
             <p>
               <li>
@@ -112,18 +120,20 @@
                   According to a study commissioned by California State University Chancellor Timothy White, about one in 10 of California State University’s 460,000 students is homeless, and one in five doesn’t have steady access to enough food.
               </li>
             </p>
-
-            
-          </ol>
-      </div>   
-    </div> 
-
-
-    <div id='footer'>
-           <p>Developed by the USC Homelessness Initiative &copy; 2017</p> 
+          
+          </ol> <!-- End of Last Fact -->
     </div>
 
-      
+    <div id="mission-statement">
+        <h1>Mission Statement</h1>
+    </div>
+    
+
+    <div id='footer'>
+        <p>Developed by the USC Homelessness Initiative &copy; 2017</p> 
+    </div>
+
+
     <script src="js/TweenLite.min.js"></script>
     <script src="js/EasePack.min.js"></script>
     <script src="js/rAF.js"></script>
