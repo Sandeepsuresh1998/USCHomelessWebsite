@@ -48,7 +48,9 @@
         background-color: lightblue;
         color: white;
     }
-
+    #wrapper {
+    	
+    }
     #facts-container {
       width: 900px;
       margin: auto;
@@ -57,14 +59,12 @@
       text-align: center;
     }
 
-    #mission-statement {
-      width: 900px;
-      margin: auto;
+    #video {
+    	text-align: center;
+    	padding-top: 50px;
+    	padding-bottom: 50px;
     }
 
-    #mission-statement h1 {
-      text-align: center;
-    }
     #footer {
       text-align: center;
       background-color: lightgrey;
@@ -94,7 +94,8 @@
       </div>
     </div><!-- /container -->
 
-    <div id="facts-container">
+    <div id="wrapper">
+    	<div id="facts-container">
       <h1>The Facts</h1>
           <ol>
             <p>
@@ -124,15 +125,24 @@
           </ol> <!-- End of Last Fact -->
     </div>
 
- <!--    <div id="mission-statement">
-        <h1>Mission Statement</h1>
-    </div> -->
-    <script src="js/TweenLite.min.js"></script>
+
+
+    <div id="video">
+    	<h1>Support us on Facebook!</h1>
+
+    	<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUSCUSG%2Fvideos%2F10155946264722698%2F&show_text=0&width=560" width="650" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+    </div>
+    </div>
+    
+
+    <div id='footer'>
+		<p>Developed by the USC Homelessness Initiative &copy; 2017</p>	
+	</div>
+   
+ 	<script src="js/TweenLite.min.js"></script>
     <script src="js/EasePack.min.js"></script>
     <script src="js/rAF.js"></script>
     <script src="js/demo-1.js"></script>
-    <script>
-    </script>
 
 </body>
 
